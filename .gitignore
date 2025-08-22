@@ -2,6 +2,8 @@
 DerivedData/
 build/
 *.pbxuser
+*.pbxproj
+*.xcuserstate
 !default.pbxuser
 *.mode1v3
 *.mode2v3
