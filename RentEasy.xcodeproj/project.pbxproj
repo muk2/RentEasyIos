@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934F73C82E57FE3300651417 /* RentEasyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73C72E57FE3300651417 /* RentEasyApp.swift */; };
+		934F73CA2E57FE3300651417 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73C92E57FE3300651417 /* ContentView.swift */; };
+		934F73CC2E57FE3400651417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934F73CB2E57FE3400651417 /* Assets.xcassets */; };
+		934F73CF2E57FE3400651417 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934F73CE2E57FE3400651417 /* Preview Assets.xcassets */; };
+		934F73D92E57FE3500651417 /* RentEasyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73D82E57FE3500651417 /* RentEasyTests.swift */; };
+		934F73E32E57FE3500651417 /* RentEasyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73E22E57FE3500651417 /* RentEasyUITests.swift */; };
+		934F73E52E57FE3500651417 /* RentEasyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73E42E57FE3500651417 /* RentEasyUITestsLaunchTests.swift */; };
+		934F73F22E5917C900651417 /* NetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73F12E5917C900651417 /* NetworkHelpers.swift */; };
+		934F73F42E59180000651417 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73F32E59180000651417 /* LoginView.swift */; };
+		934F73F82E59184400651417 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73F72E59184400651417 /* SignupView.swift */; };
+		934F73FA2E5918AC00651417 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73F92E5918AB00651417 /* DashboardView.swift */; };
+		934F73FC2E591FCB00651417 /* SwipeableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F73FB2E591FCB00651417 /* SwipeableCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		934F73D52E57FE3500651417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 934F73BC2E57FE3300651417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934F73C32E57FE3300651417;
+			remoteInfo = RentEasy;
+		};
+		934F73DF2E57FE3500651417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 934F73BC2E57FE3300651417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934F73C32E57FE3300651417;
+			remoteInfo = RentEasy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		934F73C42E57FE3300651417 /* RentEasyIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentEasyIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		934F73C72E57FE3300651417 /* RentEasyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentEasyApp.swift; sourceTree = "<group>"; };
+		934F73C92E57FE3300651417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		934F73CB2E57FE3400651417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		934F73CE2E57FE3400651417 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		934F73D42E57FE3500651417 /* RentEasyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentEasyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934F73D82E57FE3500651417 /* RentEasyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentEasyTests.swift; sourceTree = "<group>"; };
+		934F73DE2E57FE3500651417 /* RentEasyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentEasyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934F73E22E57FE3500651417 /* RentEasyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentEasyUITests.swift; sourceTree = "<group>"; };
+		934F73E42E57FE3500651417 /* RentEasyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentEasyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		934F73F12E5917C900651417 /* NetworkHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelpers.swift; sourceTree = "<group>"; };
+		934F73F32E59180000651417 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		934F73F72E59184400651417 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		934F73F92E5918AB00651417 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		934F73FB2E591FCB00651417 /* SwipeableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934F73C12E57FE3300651417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934F73D12E57FE3500651417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934F73DB2E57FE3500651417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934F73BB2E57FE3300651417 = {
+			isa = PBXGroup;
+			children = (
+				934F73C62E57FE3300651417 /* RentEasy */,
+				934F73D72E57FE3500651417 /* RentEasyTests */,
+				934F73E12E57FE3500651417 /* RentEasyUITests */,
+				934F73C52E57FE3300651417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		934F73C52E57FE3300651417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934F73C42E57FE3300651417 /* RentEasyIos.app */,
+				934F73D42E57FE3500651417 /* RentEasyTests.xctest */,
+				934F73DE2E57FE3500651417 /* RentEasyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934F73C62E57FE3300651417 /* RentEasy */ = {
+			isa = PBXGroup;
+			children = (
+				934F73C72E57FE3300651417 /* RentEasyApp.swift */,
+				934F73C92E57FE3300651417 /* ContentView.swift */,
+				934F73CB2E57FE3400651417 /* Assets.xcassets */,
+				934F73CD2E57FE3400651417 /* Preview Content */,
+				934F73F12E5917C900651417 /* NetworkHelpers.swift */,
+				934F73F32E59180000651417 /* LoginView.swift */,
+				934F73F72E59184400651417 /* SignupView.swift */,
+				934F73F92E5918AB00651417 /* DashboardView.swift */,
+				934F73FB2E591FCB00651417 /* SwipeableCard.swift */,
+			);
+			path = RentEasy;
+			sourceTree = "<group>";
+		};
+		934F73CD2E57FE3400651417 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				934F73CE2E57FE3400651417 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		934F73D72E57FE3500651417 /* RentEasyTests */ = {
+			isa = PBXGroup;
+			children = (
+				934F73D82E57FE3500651417 /* RentEasyTests.swift */,
+			);
+			path = RentEasyTests;
+			sourceTree = "<group>";
+		};
+		934F73E12E57FE3500651417 /* RentEasyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				934F73E22E57FE3500651417 /* RentEasyUITests.swift */,
+				934F73E42E57FE3500651417 /* RentEasyUITestsLaunchTests.swift */,
+			);
+			path = RentEasyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934F73C32E57FE3300651417 /* RentEasy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934F73E82E57FE3500651417 /* Build configuration list for PBXNativeTarget "RentEasy" */;
+			buildPhases = (
+				934F73C02E57FE3300651417 /* Sources */,
+				934F73C12E57FE3300651417 /* Frameworks */,
+				934F73C22E57FE3300651417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RentEasy;
+			productName = RentEasy;
+			productReference = 934F73C42E57FE3300651417 /* RentEasyIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		934F73D32E57FE3500651417 /* RentEasyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934F73EB2E57FE3500651417 /* Build configuration list for PBXNativeTarget "RentEasyTests" */;
+			buildPhases = (
+				934F73D02E57FE3500651417 /* Sources */,
+				934F73D12E57FE3500651417 /* Frameworks */,
+				934F73D22E57FE3500651417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934F73D62E57FE3500651417 /* PBXTargetDependency */,
+			);
+			name = RentEasyTests;
+			productName = RentEasyTests;
+			productReference = 934F73D42E57FE3500651417 /* RentEasyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		934F73DD2E57FE3500651417 /* RentEasyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934F73EE2E57FE3500651417 /* Build configuration list for PBXNativeTarget "RentEasyUITests" */;
+			buildPhases = (
+				934F73DA2E57FE3500651417 /* Sources */,
+				934F73DB2E57FE3500651417 /* Frameworks */,
+				934F73DC2E57FE3500651417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				934F73E02E57FE3500651417 /* PBXTargetDependency */,
+			);
+			name = RentEasyUITests;
+			productName = RentEasyUITests;
+			productReference = 934F73DE2E57FE3500651417 /* RentEasyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		934F73BC2E57FE3300651417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					934F73C32E57FE3300651417 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					934F73D32E57FE3500651417 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 934F73C32E57FE3300651417;
+					};
+					934F73DD2E57FE3500651417 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 934F73C32E57FE3300651417;
+					};
+				};
+			};
+			buildConfigurationList = 934F73BF2E57FE3300651417 /* Build configuration list for PBXProject "RentEasy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 934F73BB2E57FE3300651417;
+			productRefGroup = 934F73C52E57FE3300651417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934F73C32E57FE3300651417 /* RentEasy */,
+				934F73D32E57FE3500651417 /* RentEasyTests */,
+				934F73DD2E57FE3500651417 /* RentEasyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		934F73C22E57FE3300651417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934F73CF2E57FE3400651417 /* Preview Assets.xcassets in Resources */,
+				934F73CC2E57FE3400651417 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934F73D22E57FE3500651417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934F73DC2E57FE3500651417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934F73C02E57FE3300651417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934F73F22E5917C900651417 /* NetworkHelpers.swift in Sources */,
+				934F73FA2E5918AC00651417 /* DashboardView.swift in Sources */,
+				934F73CA2E57FE3300651417 /* ContentView.swift in Sources */,
+				934F73F42E59180000651417 /* LoginView.swift in Sources */,
+				934F73FC2E591FCB00651417 /* SwipeableCard.swift in Sources */,
+				934F73C82E57FE3300651417 /* RentEasyApp.swift in Sources */,
+				934F73F82E59184400651417 /* SignupView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934F73D02E57FE3500651417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934F73D92E57FE3500651417 /* RentEasyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		934F73DA2E57FE3500651417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934F73E52E57FE3500651417 /* RentEasyUITestsLaunchTests.swift in Sources */,
+				934F73E32E57FE3500651417 /* RentEasyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		934F73D62E57FE3500651417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934F73C32E57FE3300651417 /* RentEasy */;
+			targetProxy = 934F73D52E57FE3500651417 /* PBXContainerItemProxy */;
+		};
+		934F73E02E57FE3500651417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934F73C32E57FE3300651417 /* RentEasy */;
+			targetProxy = 934F73DF2E57FE3500651417 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		934F73E62E57FE3500651417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		934F73E72E57FE3500651417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		934F73E92E57FE3500651417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RentEasy/Preview Content\"";
+				DEVELOPMENT_TEAM = QYTGJC6W67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruv.RentEasyIos;
+				PRODUCT_NAME = RentEasyIos;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		934F73EA2E57FE3500651417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RentEasy/Preview Content\"";
+				DEVELOPMENT_TEAM = QYTGJC6W67;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruv.RentEasyIos;
+				PRODUCT_NAME = RentEasyIos;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		934F73EC2E57FE3500651417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYTGJC6W67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruv.RentEasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentEasy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RentEasy";
+			};
+			name = Debug;
+		};
+		934F73ED2E57FE3500651417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYTGJC6W67;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruv.RentEasyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RentEasy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RentEasy";
+			};
+			name = Release;
+		};
+		934F73EF2E57FE3500651417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYTGJC6W67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruv.RentEasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RentEasy;
+			};
+			name = Debug;
+		};
+		934F73F02E57FE3500651417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QYTGJC6W67;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bruv.RentEasyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RentEasy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		934F73BF2E57FE3300651417 /* Build configuration list for PBXProject "RentEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934F73E62E57FE3500651417 /* Debug */,
+				934F73E72E57FE3500651417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934F73E82E57FE3500651417 /* Build configuration list for PBXNativeTarget "RentEasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934F73E92E57FE3500651417 /* Debug */,
+				934F73EA2E57FE3500651417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934F73EB2E57FE3500651417 /* Build configuration list for PBXNativeTarget "RentEasyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934F73EC2E57FE3500651417 /* Debug */,
+				934F73ED2E57FE3500651417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934F73EE2E57FE3500651417 /* Build configuration list for PBXNativeTarget "RentEasyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934F73EF2E57FE3500651417 /* Debug */,
+				934F73F02E57FE3500651417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 934F73BC2E57FE3300651417 /* Project object */;
+}
