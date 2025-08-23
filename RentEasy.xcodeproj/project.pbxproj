@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		933A3FA32E596B4B00BE738C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		934F73C42E57FE3300651417 /* RentEasyIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RentEasyIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934F73C72E57FE3300651417 /* RentEasyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentEasyApp.swift; sourceTree = "<group>"; };
 		934F73C92E57FE3300651417 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		934F73C62E57FE3300651417 /* RentEasy */ = {
 			isa = PBXGroup;
 			children = (
+				933A3FA32E596B4B00BE738C /* Info.plist */,
 				934F73C72E57FE3300651417 /* RentEasyApp.swift */,
 				934F73C92E57FE3300651417 /* ContentView.swift */,
 				934F73CB2E57FE3400651417 /* Assets.xcassets */,
@@ -446,6 +448,7 @@
 				DEVELOPMENT_TEAM = QYTGJC6W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RentEasy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -477,6 +480,7 @@
 				DEVELOPMENT_TEAM = QYTGJC6W67;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RentEasy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
